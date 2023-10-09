@@ -8,7 +8,7 @@
           <v-img
               class="align-end text-white"
               height="200"
-              :src="`/images/${card.img}`"
+              :src="`/public/images/${card.img}`"
               cover
           >
             <v-card-title>{{ card.title }}</v-card-title>
@@ -31,7 +31,7 @@
           <v-img
               class="align-end text-white"
               height="200"
-              src="/images/todo.png"
+              src="/public/images/todo.png"
               cover
           >
             <v-card-title>アプリ開発</v-card-title>
