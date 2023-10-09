@@ -1,26 +1,36 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <v-app>
+    <v-main>
+      <HeaderComponent @navigate="scrollTo" />
+      <CycleSlides />
+      <BodyComponent />
+      <FooterComponent @navigate="scrollTo" />
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderComponent from "./components/HeaderComponent.vue";
+import CycleSlides from "./components/CycleSlides.vue";
+import BodyComponent from "@/components/BodyComponent.vue";
+import FooterComponent from "@/components/FooterComponent";
 
 export default {
   name: 'App',
+
   components: {
-    HelloWorld
+    HeaderComponent,
+    CycleSlides,
+    BodyComponent,
+    FooterComponent
+  },
+  methods: {
+    scrollTo(section) {
+      const element = document.getElementById(section);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
