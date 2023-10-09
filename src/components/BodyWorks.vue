@@ -42,7 +42,7 @@
           </v-card-subtitle>
 
           <v-card-text>
-            ソーシャルデータバンク本社の会議室管理アプリケーションを提案・開発・運用。エンジニア兼PMとして社員の方からのヒアリングから０１で開発を行い、約３ヶ月で導入することができた。社内ツールで公開はできないため、一部機能を利用してGoogleカレンダー連携ToDoアプリを開発した。
+            ソーシャルデータバンク本社の会議室管理アプリケーションを学生チームで約３ヶ月かけて提案・開発・運用した。エンジニア兼PMとして社員の方とのヒアリングから始まり、出社勤務の不便を取り除くという目標をかかげて０１開発を行った。社内ツールであるため公開できないが、一部機能を利用してGoogleカレンダー連携ToDoアプリを個人開発して公開している。
           </v-card-text>
         </v-card>
       </div>
@@ -58,19 +58,19 @@ export default {
           img: 'baseball.jpg',
           title: '高校野球',
           date: '2017',
-          content: '小中高大と野球に関わる。NPBよりMLBを視聴することが多い。',
+          content: '小学生はリトルリーグ、中学生では軟式野球部を経て、慶應義塾志木高校の野球部に所属した。大学では軟式野球サークルに所属しながら、慶應志木野球部の学生コーチとして活動していた。',
         },
         {
           img: 'fpga.jpg',
           title: 'FPGA実装',
           date: '2022',
-          content: '卒業研究は「差分プライバシ匿名化機能を付加したMQTTブローカのハードウェア実装」。IEEE Consumer Communications & Networking Conference（CCNC）でPosterを発表する予定。',
+          content: '私の卒業研究の内容は「差分プライバシ匿名化機能を付加したMQTTブローカのハードウェア実装」である。2024年１月にラスベガスで開催されるIEEE Consumer Communications & Networking Conference（CCNC）でPosterを発表する。',
         },
         {
           img: 'sdb.jpg',
           title: '長期インターン',
           date: '2022',
-          content: 'ソーシャルデータバンク株式会社でエンジニアとしてLaravelによるWEBアプリケーション開発を行っている。フロントエンドはVue.jsを使用し、WebSocketを利用した双方向な非同期通信機能を実装。また、Terraformを使用してLaravelアプリケーション用ECS on Fargateのテンプレートを作成した。',
+          content: 'ソーシャルデータバンク株式会社でエンジニアとしてWEBアプリケーション開発を行っている。フロントエンドはVue.js、バックエンドはLaravelを使用し、WebSocketを利用した双方向な非同期通信機能を実装。また、Terraformを使用してLaravelアプリケーション用ECS on Fargateのテンプレートの作成に貢献した。',
         },
       ],
     }
