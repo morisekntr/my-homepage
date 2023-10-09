@@ -8,7 +8,7 @@
           <v-img
               class="align-end text-white"
               height="200"
-              :src="`../../public/images/${card.img}`"
+              :src="`./images/${card.img}`"
               cover
           >
             <v-card-title>{{ card.title }}</v-card-title>
