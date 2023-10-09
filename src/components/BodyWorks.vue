@@ -1,6 +1,6 @@
 <template>
     <div class="works-list">
-      <div v-for="(card, i) in cards" class="works-item">
+      <div v-for="(card, i) in cards" :key="i" class="works-item">
         <v-card
             class="mx-auto"
             max-width="400"
