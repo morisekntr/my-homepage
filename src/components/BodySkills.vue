@@ -74,6 +74,10 @@ export default {
         title: "Java",
       },
       {
+        icon: "mdi-language-c",
+        title: "C/C++",
+      },
+      {
         icon: "mdi-docker",
         title: "Docker",
       },
